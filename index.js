@@ -3,6 +3,7 @@ const titleInput = document.getElementById("post-title")
 const bodyInput = document.getElementById("post-body")
 const form = document.getElementById("new-post")
 
+// render data
 function renderPosts() {
     let html = ""
     for (let post of postsArray) {
